@@ -250,3 +250,77 @@ section.container,
     transform: scale(1.05);
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
 }
+/* Gallery Images */
+.gallery-images li:nth-child(1) {
+  background-image: url("images/gallery/annaabanana.png");
+}
+.gallery-images li:nth-child(2) {
+  background-image: url("images/gallery/kpab.png");
+}
+.gallery-images li:nth-child(3) {
+  background-image: url("images/gallery/palanka.png");
+}
+.gallery-images li:nth-child(4) {
+  background-image: url("images/gallery/sk.png");
+}
+.gallery-images li:nth-child(5) {
+  background-image: url("images/gallery/svjoakim.png");
+}
+.gallery-images li:nth-child(6) {
+  background-image: url("images/gallery/1000015187.jpg");
+}
+
+/* Gear Section */
+.nikonsliki div:nth-child(1) {
+  background-image: url("images/gear/anaaaapak.png");
+}
+.nikonsliki div:nth-child(2) {
+  background-image: url("images/gear/tihana.jpg");
+}
+.sonysliki div:nth-child(1) {
+  background-image: url("images/gear/grcija.png");
+}
+.sonysliki div:nth-child(2) {
+  background-image: url("images/gear/cam15568355999.png");
+}
+.minnnisliki {
+  background-image: url("images/gear/1000015186.png");
+}
+
+/* Phone section */
+.vajbssliki div:nth-child(1) {
+  background-image: url("images/phone/483436978_18258185569272840_6323221005934325060_n.jpg");
+}
+.vajbssliki div:nth-child(2) {
+  background-image: url("images/phone/483719584_18258003169272840_4718525435641527388_n.jpg");
+}
+
+/* Tips & Tricks */
+.tip-slikka:nth-of-type(1) {
+  background-image: url("images/tips/1000015192.jpg");
+}
+.tip-slikka:nth-of-type(2) {
+  background-image: url("images/tips/Rule-of-thirds-example-photo.jpg");
+}
+.tip-slikka:nth-of-type(3) {
+  background-image: url("images/tips/download.jpg");
+}
+.tip-slikka:nth-of-type(4) {
+  background-image: url("images/tips/fingerprint-dirty-lens-macro-color-182068924.webp");
+}
+
+/* Shared image styling */
+.gallery-images li,
+.nikonsliki div,
+.sonysliki div,
+.minnnisliki,
+.vajbssliki div,
+.tip-slikka {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
